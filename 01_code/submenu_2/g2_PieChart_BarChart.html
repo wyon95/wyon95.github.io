@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/danfojs@0.1.2/dist/index.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+</head>
+<body>
+<div style="text-align: center;">
+    <h2>날짜 & 지역별 코로나 감염자수 확인</h2>
+</div>
+
+<h2 id="div1" >
+</h2>
+슬라이더 조정 시 원형그래프가 출력됩니다 <br><br>
+<input id="range" type="range" style="width:50%"><br><br><br>
+<div id="plot_div"></div>
+<div style="text-align: right;">
+    <button type="submit" id="cancel_plot">그래프 삭제</button>
+</div>
+
+<br><hr>
+
+<h2 id="div2" >
+</h2>
+슬라이더 조정 시 막대그래프가 출력됩니다<br><br>
+<input id="range2" type="range" style="width:50%"><br><br><br>
+<div id="bar_div"></div>
+<div style="text-align: right;">
+    <button type="submit" id="cancel_bar">그래프 삭제</button>
+</div>
+<br>
+<hr>
+<br>
+<div style="text-align: right;">
+    <button class="but">download csv file </button>
+</div>
+<script src="js/g2_PieChart_BarChart.js" type="module">
+</script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html> 
+<html lang="ko-KR">
+<head> 
+	<meta charset="utf-8"/> 
+	<meta name="description" content="Corona Information Site"/> 
+	<meta name="author" content="tlwns5598@gmail.com" /> 
+	<title>Corona Core</title> 
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/menubar.css">
+	<link rel="stylesheet" href="submenu_1.css">
+	<style>
+		details {
+			font: 15px "Open Sans", Calibri, sans-serif;
+		  }
+		  
+		  details > summary {
+			padding: 2px 6px;
+			background-color: #2d2d2d;
+			color:white;
+			border: none;
+			box-shadow: 3px 3px 4px gray;
+			cursor: pointer;
+		  }
+	
+	</style>
+	
+</head>
+<body id="zoom">
+
+	
+    <!-- 페이지 원클릭 상단이동 버튼-->
+    <a  style="display:scroll; position:fixed; left : 30px; bottom:10px;" href="#"><img src="../../02_img/up_dark.png" style="width:40px; "></a>
+
+	<a href="../../index.html">
+		<h2 class="main_title"> Corona Core </h2>
+	</a><br>
+<div class="mid">
+	<!-- 메뉴바 템플릿 -->
+	<script src="../../templates/subpageMenubar.js" type="text/javascript"></script>
+    <!-- 경로 박스 -->
+    <div class="stage">
+    	<h3 style="text-align:left" class="font1"> 이용안내 > About Us</h3>
+	</div>
+    <hr>
+
+	<div style="position: fixed; right: 20px; top:0px; bottom:10px; z-index: 4;">	<!--업데이트 내용-->
+		<details style=""><summary>Corona Core 업데이트 내용</summary>
+	
+		<iframe src="https://choiwonseok9.github.io/"     
+			width=300
+			height=800 frameborder=0 framespacing=0 marginheight=0 marginwidth=0  vspace=0 scrolling = "">
+		</iframe>
+	
+	</details>
+	</div>
+
+	<!-- 컨텐츠 박스 -->
+	<div class="contents">
+    	<h3 style="text-align:center">  About Us</h3><br>
+	    <p>
+	    	코로나 코어는 단국대 소프트웨어학과 캡스톤 프로젝트의 결과물입니다. <br><br>
+			현재 사이트에서 사용되는 데이터는 공공데이터 API와 보건복지부 사이트에서 추출되었습니다.<br><br>
+	    	참고로 코로나 코어는 민간 사이트로 분류되어 사이트 정보 사용의 책임소재가 사용자에게 있습니다. <br><br>
+			코로나 코어 사용자분들은 이점 고려한 사이트 이용 부탁드립니다.<br><br>
+		</p>
+		<hr><br>
+		<h3 style="text-align:center">제작</h3>
+		<p>
+			<br> 김형욱 : khw970421@kakao.com<br>
+			<br> 윤시준 : tlwns5598@gmail.com<br>
+			<br> 최원석 : abdnjs76@naver.com<br>
+			<br> 통합 : corona.core.kr@gmail.com
+	  	</p>
+	</div>
+</div>
+
+
+<!-- 댓글 기능 -->
+<div class="chatting-box">
+	<div class="chatting-box-outside">
+		<div class="chatting-box-inside">
+
+			<div id="disqus_thread"></div>
+			<script>
+			    /**
+			    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+			    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+			    /*
+			    var disqus_config = function () {
+			    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+			    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+			    };
+			    */
+			    (function() { // DON'T EDIT BELOW THIS LINE
+			    var d = document, s = d.createElement('script');
+			    s.src = 'https://coronacore-site.disqus.com/embed.js';
+			    s.setAttribute('data-timestamp', +new Date());
+			    (d.head || d.body).appendChild(s);
+			    })();
+			</script>
+			<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+		</div>
+	</div>
+</div>
+
+	<!-- Footer -->
+	<div id="footer">
+		<script src="../../templates/footer.js"></script>
+		<script src="../js/footerLink.js"></script>
+	</div>
+	<script src="../js/arrow.js"></script>
+</body> 
+</html>
+
