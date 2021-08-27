@@ -1,10 +1,10 @@
 let start = '2020-03-03'
 let end = '2021-06-09'
-function requestApiAndGetData() {
+/*function requestApiAndGetData() {
   return fetch('https://coronaproject.herokuapp.com/api/covidDate').then(res => res.json()).then(obj => {
     return obj.data
   })
-}
+}*/
 function calculateDateArray(end){
   let sdt = new Date(start); // 2020년 03월 04일 부터 시작
   let edt = new Date(end);
@@ -24,7 +24,7 @@ function calculateDateArray(end){
 }
 
 async function Set_Date(){
-  let data = await requestApiAndGetData();
+  //let data = await requestApiAndGetData();
   let date_array = await calculateDateArray(data);
   return date_array;
 }
