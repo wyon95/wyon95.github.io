@@ -1,0 +1,16 @@
+
+p{
+	color:#3D3D3D;
+	line-height: 170%;
+}
+.black_bold{
+	font-family:'KoPub Batang';
+	font-weight: 600;
+	color:blue;
+}
+.bold{
+	font-family:'KoPub Batang';
+	font-weight: 600;
+	color:red;
+}
+.float{	float:right;}

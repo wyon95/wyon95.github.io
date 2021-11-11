@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/danfojs@0.1.2/dist/index.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!-- Mixed content (https 사이트에서 http 사이트 요청 시 발생하는 보안 문제) 문제 해결 -->
+	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <style>
+        body{
+            height: 950px;
+        }
+        #outer-select-section{
+            text-align: center;
+        }
+        #select-section{
+            border:10px gainsboro ridge;
+            padding:20px;
+            /* border-style: groove; */
+            text-align: left;
+            width:270px;
+            margin:0 auto;
+            font-family:monospace;
+        }
+        #graph_output{
+            text-align: center;
+        }
+    </style>
+</head>
+<body><br>
+
+    <div style="text-align:center;"><br>
+        <h2 style="font-weight:bold;">지역별 확진자 증가량 비교</h2><br>
+    </div>
+    <div id="outer-select-section">
+        <div id="select-section" "><br>
+            <b>비교할 지역 (복수) 선택</b><br>
+            <select id="city">
+                <option>제주</option>
+                <option>경남</option>
+                <option>경북</option>
+                <option>전남</option>
+                <option>전북</option>
+                <option>충남</option>
+                <option>충북</option>
+                <option>강원</option>
+                <option>경기</option>
+                <option>세종</option>
+                <option>울산</option>
+                <option>대전</option>
+                <option>광주</option>
+                <option>인천</option>
+                <option>대구</option>
+                <option>부산</option>
+                <option>서울</option>
+                <option>검역</option>
+            </select>
+    
+            <button id="addButton">지역 추가</button>
+            <br>
+            <div class="cityMember"></div>
+            <br>
+            
+            <b>조회 일자</b>
+            <input type="date" id="input">
+            <br>
+            <br>
+            <b>조회 기간 :</b>
+            
+            <select id="days">
+                <option> 1주일 </option>
+                <option> 2주일 </option>
+                <option> 3주일 </option>
+                <option> 한달 </option>
+            </select> 
+            <br><br>
+            
+            <div id="graph_output">
+                <b>그래프 출력</b><br>
+                <button type="submit" id="but">
+                    <img src="../../02_img/icon/icon-printer.png" width=80px; alt="icon-printer">
+                </button>
+            </div>
+        </div>
+        <!-- ㄴ select-section -->
+    </div>
+    <!-- ㄴ outer-select-section -->
+    <div id="table"></div>
+    <div id="plot"></div>
+
+    <script src="./js/g3_Compare_City.js" type="module"></script>
+</body>
+</html>

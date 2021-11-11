@@ -1,0 +1,62 @@
+
+#outer_contents{
+	background-color:#eeeeee;
+	border:1px solid;
+  margin:0 auto;
+  /* height: 2400px; */
+}
+/* 짙은 회색 박스 */
+#inside_contents{
+	background-color:#474747;
+	color:white;
+	border:1px solid;
+}
+
+#graph_outerframe{
+  text-align: center;
+  background-color: gainsboro;
+  border: 4mm ridge ghostwhite;
+
+}
+
+#graph_iframe{
+  max-width: 780px;
+  margin:0 auto;
+}
+
+button{
+  background-color:honeydew;
+}
+
+
+/* 그래프 부분에 IFrame 없애고 아래 CSS 사용 */
+#graph_section{
+	background-color:white;
+	border:1px solid;
+}
+details {
+  font: 15px "Open Sans", Calibri, sans-serif;
+}
+details > summary {
+  padding: 2px 6px;
+  background-color: #2d2d2d;
+  color:white;
+  border: none;
+  box-shadow: 3px 3px 4px gray;
+  cursor: pointer;
+}
+
+.graph_instruction{
+  text-align: left;
+  width:400px; 
+  margin:0 auto; 
+  margin-bottom:20px;
+  margin-top:20px;
+  line-height:30px;
+}
+
+@media (max-width: 1300px){
+  #outer_contents{
+    max-width: 100%;
+  }
+}

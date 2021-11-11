@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8" />
+        <title>koreaMap</title>
+        <link rel="stylesheet" href="css/korea.css" />
+        <link type="text/css" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.css" rel="stylesheet" />
+        <!-- Mixed content (https 사이트에서 http 사이트 요청 시 발생하는 보안 문제) 문제 해결 -->
+        <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    </head>
+    <div style="text-align: center;">
+        <br><h2>지역별 확진자 숫자 조회</h2>
+        <h4>(모바일 뷰는 지원되지 않습니다)</h4>
+    </div>
+    <script type="text/javascript" src="js/d3.js"></script>
+    <script type="text/javascript" src="js/korea.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/danfojs@0.1.2/dist/index.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script>$(function() {$(document).tooltip();});</script>
+    <body>
+        <div id="outerDateButton">
+            <input type="date" id="input">
+            <button type="submit" id="plot">날짜 지정</button><br>
+        </div>
+        <div id="container"></div>
+    </body>
+</html>

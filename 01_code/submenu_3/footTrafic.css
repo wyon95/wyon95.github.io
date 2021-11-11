@@ -1,0 +1,28 @@
+/*확진자 동선 링크 버튼*/
+#btn_group button{ 
+	border: 1px solid black; 
+	background-color: rgba(0,0,0,0); 
+	color: black; 
+	margin-bottom : 10px;
+	padding: 20px; 
+	border-radius:10px;
+	
+}
+/*링크 hover*/
+#btn_group button:hover{ 
+	color:white;
+	background-color:gray;
+	cursor: pointer;
+}
+
+.outer_caution{
+	text-align: center;
+	/* border: 1px solid black; */
+}
+
+.inner_caution{
+	text-align: left;
+	max-width:500px;
+	margin:0 auto;
+	/* border: 1px solid black; */
+}

@@ -1,0 +1,116 @@
+/* 데이터 크롤링 */
+#gray_box{
+    margin-top: 35px;
+}
+
+/* 상황판 박스 */
+#board-title{
+	width:400px; 
+	height:40px; 
+	margin: auto; 
+	background: rgb(63, 63, 63); 
+	margin-top: 100px; 
+	margin-bottom : 10px;  
+	z-index: 1;
+}
+
+/* 상황판 */
+.main_board{
+	position : relative;
+	padding-top: 3px;
+	height : 30px;
+	text-align : center;
+	font-size: 30px;
+	color:white;
+	z-index : 2;
+}
+
+.inside_board{
+	text-align: center;
+    display: inline-block;
+    position:relative;
+	color:white;
+}
+
+.outer_Box6{
+	width:660px; 
+	height:300px; 
+	text-align: center;
+}
+.Box6{
+	margin:0 auto;
+}
+
+/* 업데이트 날짜 */
+.outer_updates{
+	text-align: center;
+}
+
+.updates{
+	width:240px; 
+	height:25px;  
+	margin:0 auto;
+}
+
+/* 굴곡 */
+.rounded {border-radius:10px;}
+/* 가로선 */
+#white_line{color:white;}
+
+/* 각 보드 */
+.eachBoard{
+	width:200px; 
+	height:120px;  
+	margin:10px;
+	float:left;
+}
+
+#board-1st{background: rgb(212, 140, 81);}
+#board-2nd{background: rgb(209, 107, 76);}
+#board-3rd{background: rgb(63, 63, 63)  ;}
+#board-4th{background: rgb(255, 73, 73) ;}
+#board-5th{background: rgb(75, 132, 255);}
+#board-6th{background: rgb(69, 206, 172);}
+
+/* 화면 너비 0 ~ 1220px */
+/* @media (max-width: 1220px){
+} */
+
+/* 화면 너비 0 ~ 768px */
+@media (max-width: 768px){
+
+	#board-title{
+		width:300px; 
+		height:40px; 
+		margin: auto; 
+		margin-bottom:10px;  
+	}
+
+	.main_board{
+		padding-top:4px;
+		font-size: 20px;
+	}
+
+	.outer_Box6{
+		width:375px; 
+		height:300px; 
+		text-align: center;
+	}
+	.eachBoard{
+		width:110px; 
+		height:120px;  
+		margin:5px;
+		float:left;
+		font-size: 13px;
+	}
+}
+
+.h4_style{
+	margin-left:20px; 
+	margin-bottom:10px;
+	margin-top:10px;
+}
+
+/* 화면 너비 0 ~ 480px */
+/* @media (max-width: 480px){
+} */

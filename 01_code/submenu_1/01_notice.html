@@ -1,0 +1,97 @@
+<!DOCTYPE html> 
+<html lang="ko-KR">
+<head> 
+	<!-- 기본 메타데이터 -->
+	<meta charset="utf-8"/> 
+	<meta name="description" content="Corona Information Site"/>
+	<meta name="author" content="tlwns5598@gmail.com" />
+	<meta name="keywords" content="코로나 코어 Corona-Core">
+	<meta name="viewport" content="width=device-width,initialscale=1, minimum-scale=1, maximum-scale=1, user-scaleable=no">
+	<meta name="description" content="코로나 코어 공지사항입니다.">
+	<title>Corona Core</title>
+	
+	<!-- SNS 공유용 메타데이터 -->
+	<meta property="og:title" content="코로나 코어">
+	<meta property="og:description" content="코로나 코어 공지사항입니다."> 
+	<meta property="og:type" content="website"> 
+	<meta property="og:image" content="../../02_img/icon/virus.png">
+	<meta property="og:url" content="http://corona-core.com/01_code/submenu_1/01_notice.html">
+	
+	<!-- Favicon [Chrome, Safari, IE] , [Firefox, Opera] -->
+	<link rel="shortcut icon" href="../../02_img/icon/virus.png" type="image/x-icon">
+	<link rel="icon"          href="../../02_img/icon/virus.png" type="image/x-icon">
+	
+	<!-- css -->
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/menubar.css">
+	<link rel="stylesheet" href="../css/menubar_mobile.css">
+	<link rel="stylesheet" href="subContents.css">
+	<link rel="stylesheet" href="commentSection.css">
+
+</head>
+<body>
+	<!-- 모바일 메뉴바 -->
+	<script src="../../templates/mobileMenubar_subPage.js" type="text/javascript"></script>
+	
+	<a href="../../index.html">
+		<h2 class="main_title"> Corona Core </h2>
+	</a>
+
+	<!-- 컨텐츠 파트 -->
+	<div class="mid">
+
+		<!-- 서브페이지 메뉴 -->
+		<script> let dir_box="이용안내 > 공지사항";</script>
+		<script src="../../templates/subpageMenubar.js" type="text/javascript"></script>
+		<script src="../../templates/supPageController.js" type="text/javascript"></script>
+		
+		<!-- 컨텐츠 파트 - 공지사항 -->
+		<div class="contents">
+			<h2 style="text-align:center; margin-bottom:50px; margin-top:50px;"> Corona Core 공지사항 </h2>
+			<p class="subContents">
+				업데이트 내역<br><br>
+				- 통계 섹션 작성<br>
+				- 데이터 크롤링을 통한 상황판 구현<br>
+				- 페이지별 반응형 처리(진행중)<br>
+				- GPS API (진행중)<br>
+			</p>
+		</div>
+	</div>
+
+	<!-- 댓글 기능 -->
+	<div class="chatting-box">
+		<div class="chatting-box-outside">
+			<div class="chatting-box-inside">
+				<div id="disqus_thread"></div>
+				<script>
+					/**
+					*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+					*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+					/*
+					var disqus_config = function () {
+					this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+					this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+					};
+					*/
+					(function() { // DON'T EDIT BELOW THIS LINE
+					var d = document, s = d.createElement('script');
+					s.src = 'https://coronacore-site.disqus.com/embed.js';
+					s.setAttribute('data-timestamp', +new Date());
+					(d.head || d.body).appendChild(s);
+					})();
+				</script>
+				<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer -->
+	<script src="../../templates/footer.js"></script>
+	<script src="../js/footerLink.js"></script>
+
+	<!-- 페이지 원클릭 상단이동 버튼-->
+	<a id="arrow" href="#"><img src="../../02_img/up_dark.png" style="width:40px; "></a>
+	<script src="../js/arrow.js"></script>
+</body> 
+</html>
+

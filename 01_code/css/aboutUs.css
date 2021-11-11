@@ -1,0 +1,12 @@
+.subContents{
+    width:600px;
+    margin:0px auto;
+    text-align: left;
+    margin-bottom:50px;
+}
+
+@media (max-width: 780px){
+    .subContents{
+        width:80%;
+    }
+}

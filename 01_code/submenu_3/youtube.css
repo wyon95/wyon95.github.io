@@ -1,0 +1,23 @@
+.youtube_outerBox{
+    text-align: center;
+    /* background: chocolate; */
+    height:400px; 
+}
+.youtube_innerBox{
+    margin: 0 auto ;
+    width: 60%;
+    height:400px; 
+    /* background-color: aqua; */
+}
+
+@media (max-width:1300px){
+    .youtube_innerBox{
+        width: 80%;
+    }
+}
+
+@media (max-width:768px){
+    .youtube_innerBox{
+        width: 95%;
+    }
+}

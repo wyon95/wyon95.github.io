@@ -1,0 +1,33 @@
+
+.chatting-box{
+	text-align: center;
+}
+.chatting-box-outside{
+	max-width: 1300px;
+	margin:0 auto;
+	margin-top: 20px;
+	background-color:#eeeeee;
+	border:1px solid;
+	padding:20px;
+}
+.chatting-box-inside{
+	padding:10px;
+	border:1px gray solid;
+	background-color: white;
+}
+
+/* 1300 이전은 80% */
+@media (max-width: 1300px){
+
+	.chatting-box{
+		margin:0 auto;
+		max-width: 95%;
+	}
+
+	.chatting-box-outside{
+		margin-top: 20px;
+		/* background-color:#eeeeee; */
+		border:1px solid;
+		padding:20px;
+	}
+}

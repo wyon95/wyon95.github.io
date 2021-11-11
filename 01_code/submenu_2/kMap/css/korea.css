@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+#outerDateButton{
+    text-align: center;
+}
+
+#container {
+    width: 700px;
+    float: left;
+    margin: 15px 35px;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+#container::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
+}
+#states path {
+    fill: #585858;
+    stroke: #490f0f;
+    stroke-width: 1.5px;
+}
+
+#states path:hover {
+    fill: #0bbbb0;
+}
+
+#states .active {
+    fill: #00bbb0;
+}
+
+#states .activeDetail {
+    fill: #00bbb0;
+}
+
+#states path {
+    cursor: pointer;
+}
+
+#states text {
+    cursor: pointer;
+    font-size: 12px;
+    fill: #fff;
+}
