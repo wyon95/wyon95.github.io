@@ -10,18 +10,38 @@ from datetime import datetime
 
 
 
-html = requests.get('http://openapi.data.go.kr/openapi/service/rest/Covid19/getCovid19SidoInfStateJson?serviceKey=u%2BXsTVV1nl13bsl5mxFNCaZ0o48loSbVj4pQoNm2xFONwLswAgYcNrabZ9jBp7mIdKQZSgYV7NBAjOyHH6cr%2Fg%3D%3D&startCreateDt=20210903&endCreateDt=20210903')
+html = requests.get('http://openapi.data.go.kr/openapi/service/rest/Covid19/getCovid19SidoInfStateJson?serviceKey=u%2BXsTVV1nl13bsl5mxFNCaZ0o48loSbVj4pQoNm2xFONwLswAgYcNrabZ9jBp7mIdKQZSgYV7NBAjOyHH6cr%2Fg%3D%3D&startCreateDt=20210905&endCreateDt=20210905')
 soup = bs(html.text,'html.parser')
 
 # find(태그, {속성: 속성값})
 # 처음 매칭된 1개의 값만 반환
-data1 = soup.findAll('item')   #
+createDt = soup.findAll('item')   #
 
-print("사망",data1[0])
+#print("사망",createDt[0])
 # findAll(태그)
 # 매칭된 모든 값을 리스트 형태로 반환
-print("사망",data1[18])
-
-file = open('./crawler/dataset/210903.txt', 'w',encoding='utf-8')    
-file.write('<response><header><resultCode>00</resultCode><resultMsg>NORMAL SERVICE.</resultMsg></header><body><items>'+str(data1[18])+str(data1[17])+str(data1[16])+str(data1[15])+str(data1[14])+str(data1[13])+str(data1[12])+str(data1[11])+str(data1[10])+str(data1[9])+str(data1[8])+str(data1[7])+str(data1[6])+str(data1[5])+str(data1[4])+str(data1[3])+str(data1[2])+str(data1[1])+str(data1[0])+'</items><numOfRows>10</numOfRows><pageNo>1</pageNo><totalCount>19</totalCount></body></response>')
+#print("사망",createDt[18])
+print("사망",createDt[0])
+file = open('./crawler/dataset/210905.txt', 'w',encoding='utf-8')    
+file.write('<response>\n<header>\n<resultCode>00</resultCode>\n<resultMsg>NORMAL SERVICE.</resultMsg>\n</header>\n<body>\n<items>\n'
++str(createDt[18])+'\n'
++str(createDt[17])+'\n'
++str(createDt[16])+'\n'
++str(createDt[15])+'\n'
++str(createDt[14])+'\n'
++str(createDt[13])+'\n'
++str(createDt[12])+'\n'
++str(createDt[11])+'\n'
++str(createDt[10])+'\n'
++str(createDt[9])+'\n'
++str(createDt[8])+'\n'
++str(createDt[7])+'\n'
++str(createDt[6])+'\n'
++str(createDt[5])+'\n'
++str(createDt[4])+'\n'
++str(createDt[3])+'\n'
++str(createDt[2])+'\n'
++str(createDt[1])+'\n'
++str(createDt[0])
++'\n</items>\n<numOfRows>10</numOfRows>\n<pageNo>1</pageNo>\n<totalCount>19</totalCount>\n</body>\n</response>')
 file.close()
