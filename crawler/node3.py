@@ -20,8 +20,8 @@ data1 = soup.findAll('item')   #
 print("사망",data1[0])
 # findAll(태그)
 # 매칭된 모든 값을 리스트 형태로 반환
+print("사망",data1[18])
 
-
-file = open('./crawler/dataset/210903.txt', 'w',encoding='UTF-8')    
+file = open('./crawler/dataset/210903.txt', 'w',encoding='utf-8')    
 file.write('<response><header><resultCode>00</resultCode><resultMsg>NORMAL SERVICE.</resultMsg></header><body><items>'+str(data1[18])+str(data1[17])+str(data1[16])+str(data1[15])+str(data1[14])+str(data1[13])+str(data1[12])+str(data1[11])+str(data1[10])+str(data1[9])+str(data1[8])+str(data1[7])+str(data1[6])+str(data1[5])+str(data1[4])+str(data1[3])+str(data1[2])+str(data1[1])+str(data1[0])+'</items><numOfRows>10</numOfRows><pageNo>1</pageNo><totalCount>19</totalCount></body></response>')
 file.close()
