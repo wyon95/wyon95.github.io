@@ -1,5 +1,5 @@
 ﻿header__resultCode,header__resultMsg,body__items__item__createDt,body__items__item__deathCnt,body__items__item__defCnt,body__items__item__gubun,body__items__item__gubunCn,body__items__item__gubunEn,body__items__item__incDec,body__items__item__isolClearCnt,body__items__item__isolIngCnt,body__items__item__localOccCnt,body__items__item__overFlowCnt,body__items__item__qurRate,body__items__item__seq,body__items__item__stdDay,body__items__item__updateDt,body__numOfRows,body__pageNo,body__totalCount
-0,NORMAL SERVICE.,00:00.0,13,5887,검역,隔離區,Lazaretto,9,5502,372,0,9,0,11325,2021년 09월 07일 00시,11:33.9,10,1,19
+,,00:00.0,13,5887,검역,隔離區,Lazaretto,9,5502,372,0,9,0,11325,2021년 09월 07일 00시,11:33.9,,,
 ,,00:00.0,2,2662,제주,济州,Jeju,5,2546,114,4,1,394.58,11326,2021년 09월 07일 00시,11:33.9,,,
 ,,00:00.0,34,10386,경남,庆南,Gyeongsangnam-do,87,9645,707,84,3,310.94,11327,2021년 09월 07일 00시,11:33.9,,,
 ,,00:00.0,89,7397,경북,庆北,Gyeongsangbuk-do,45,6768,540,45,0,280.25,11328,2021년 09월 07일 00시,11:33.9,,,
@@ -17,4 +17,4 @@
 ,,00:00.0,229,13962,대구,大邱,Daegu,38,13042,691,38,0,577.34,11340,2021년 09월 07일 00시,11:33.9,,,
 ,,00:00.0,152,11761,부산,釜山,Busan,35,10891,718,35,0,346.73,11341,2021년 09월 07일 00시,11:33.9,,,
 ,,00:00.0,595,83136,서울,首尔,Seoul,482,73508,9033,477,5,859.89,11342,2021년 09월 07일 00시,11:33.9,,,
-,,00:00.0,2330,263371,합계,合计,Total,1597,235225,25816,1563,34,508.16,11343,2021년 09월 07일 00시,11:33.9,,,
+0,NORMAL SERVICE.,00:00.0,2330,263371,합계,合计,Total,1597,235225,25816,1563,34,508.16,11343,2021년 09월 07일 00시,11:33.9,10,1,19
