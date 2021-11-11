@@ -10,7 +10,7 @@ from datetime import datetime
 
 
 
-html = requests.get('http://openapi.data.go.kr/openapi/service/rest/Covid19/getCovid19SidoInfStateJson?serviceKey=u%2BXsTVV1nl13bsl5mxFNCaZ0o48loSbVj4pQoNm2xFONwLswAgYcNrabZ9jBp7mIdKQZSgYV7NBAjOyHH6cr%2Fg%3D%3D&startCreateDt=20210805&endCreateDt=20210805')
+html = requests.get('http://openapi.data.go.kr/openapi/service/rest/Covid19/getCovid19SidoInfStateJson?serviceKey=u%2BXsTVV1nl13bsl5mxFNCaZ0o48loSbVj4pQoNm2xFONwLswAgYcNrabZ9jBp7mIdKQZSgYV7NBAjOyHH6cr%2Fg%3D%3D&startCreateDt=20210831&endCreateDt=20210831')
 soup = bs(html.text,'html.parser')
 
 # find(태그, {속성: 속성값})
@@ -23,7 +23,7 @@ createDt = soup.findAll('item')   #
 #print("사망",createDt[18])
 
 print("사망",createDt[0])
-file = open('./crawler/dataset/210805.txt', 'w',encoding='utf-8')    
+file = open('./crawler/dataset/210831.txt', 'w',encoding='utf-8')    
 file.write('<response>\n<header>\n<resultCode>00</resultCode>\n<resultMsg>NORMAL SERVICE.</resultMsg>\n</header>\n<body>\n<items>\n'
 +str(createDt[18])+'\n'
 +str(createDt[17])+'\n'
