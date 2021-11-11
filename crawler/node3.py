@@ -17,7 +17,7 @@ soup = bs(html.text,'html.parser')
 # 처음 매칭된 1개의 값만 반환
 data1 = soup.findAll('item')   #
 
-print("사망",data1[18])
+print("사망",data1[0])
 # findAll(태그)
 # 매칭된 모든 값을 리스트 형태로 반환
 
