@@ -312,20 +312,20 @@
 <updateDt>2021-09-16 10:11:33.897</updateDt>
 </item>
 <item>
-<createDt>2021-09-03 09:00:00.000</createDt>
-<deathCnt>2308</deathCnt>
-<defCnt>257106</defCnt>
+<createDt>2021-09-01 09:00:00.000</createDt>
+<deathCnt>2292</deathCnt>
+<defCnt>253439</defCnt>
 <gubun>합계</gubun>
 <gubunCn>合计</gubunCn>
 <gubunEn>Total</gubunEn>
-<incDec>1708</incDec>
-<isolClearCnt>228618</isolClearCnt>
-<isolIngCnt>26180</isolIngCnt>
-<localOccCnt>1674</localOccCnt>
-<overFlowCnt>34</overFlowCnt>
-<qurRate>496.07</qurRate>
-<seq>11267</seq>
-<stdDay>2021년 09월 03일 00시</stdDay>
+<incDec>2024</incDec>
+<isolClearCnt>0</isolClearCnt>
+<isolIngCnt>251147</isolIngCnt>
+<localOccCnt>1991</localOccCnt>
+<overFlowCnt>33</overFlowCnt>
+<qurRate>488.99</qurRate>
+<seq>11229</seq>
+<stdDay>2021년 09월 01일 00시</stdDay>
 <updateDt>2021-09-16 10:11:33.897</updateDt>
 </item>
 </items>
