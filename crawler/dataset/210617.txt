@@ -1,0 +1,336 @@
+<response>
+<header>
+<resultCode>00</resultCode>
+<resultMsg>NORMAL SERVICE.</resultMsg>
+</header>
+<body>
+<items>
+<item>
+<createdt>2021-06-17 09:00:00.000</createdt>
+<deathcnt>5</deathcnt>
+<defcnt>3980</defcnt>
+<gubun>검역</gubun>
+<gubuncn>隔離區</gubuncn>
+<gubunen>Lazaretto</gubunen>
+<incdec>8</incdec>
+<isolclearcnt>3806</isolclearcnt>
+<isolingcnt>169</isolingcnt>
+<localocccnt>0</localocccnt>
+<overflowcnt>8</overflowcnt>
+<qurrate>0.00</qurrate>
+<seq>9767</seq>
+<stdday>2021년 06월 17일 00시</stdday>
+<updatedt>2021-09-16 10:11:33.897</updatedt>
+</item>
+<item>
+<createdt>2021-06-17 09:00:00.000</createdt>
+<deathcnt>1</deathcnt>
+<defcnt>1215</defcnt>
+<gubun>제주</gubun>
+<gubuncn>济州</gubuncn>
+<gubunen>Jeju</gubunen>
+<incdec>8</incdec>
+<isolclearcnt>1126</isolclearcnt>
+<isolingcnt>88</isolingcnt>
+<localocccnt>8</localocccnt>
+<overflowcnt>0</overflowcnt>
+<qurrate>181.14</qurrate>
+<seq>9768</seq>
+<stdday>2021년 06월 17일 00시</stdday>
+<updatedt>2021-09-16 10:11:33.897</updatedt>
+</item>
+<item>
+<createdt>2021-06-17 09:00:00.000</createdt>
+<deathcnt>20</deathcnt>
+<defcnt>5061</defcnt>
+<gubun>경남</gubun>
+<gubuncn>庆南</gubuncn>
+<gubunen>Gyeongsangnam-do</gubunen>
+<incdec>5</incdec>
+<isolclearcnt>4818</isolclearcnt>
+<isolingcnt>223</isolingcnt>
+<localocccnt>5</localocccnt>
+<overflowcnt>0</overflowcnt>
+<qurrate>150.56</qurrate>
+<seq>9769</seq>
+<stdday>2021년 06월 17일 00시</stdday>
+<updatedt>2021-09-16 10:11:33.897</updatedt>
+</item>
+<item>
+<createdt>2021-06-17 09:00:00.000</createdt>
+<deathcnt>86</deathcnt>
+<defcnt>4828</defcnt>
+<gubun>경북</gubun>
+<gubuncn>庆北</gubuncn>
+<gubunen>Gyeongsangbuk-do</gubunen>
+<incdec>3</incdec>
+<isolclearcnt>4642</isolclearcnt>
+<isolingcnt>100</isolingcnt>
+<localocccnt>3</localocccnt>
+<overflowcnt>0</overflowcnt>
+<qurrate>181.33</qurrate>
+<seq>9770</seq>
+<stdday>2021년 06월 17일 00시</stdday>
+<updatedt>2021-09-16 10:11:33.897</updatedt>
+</item>
+<item>
+<createdt>2021-06-17 09:00:00.000</createdt>
+<deathcnt>15</deathcnt>
+<defcnt>1570</defcnt>
+<gubun>전남</gubun>
+<gubuncn>全南</gubuncn>
+<gubunen>Jeollanam-do</gubunen>
+<incdec>6</incdec>
+<isolclearcnt>1458</isolclearcnt>
+<isolingcnt>97</isolingcnt>
+<localocccnt>6</localocccnt>
+<overflowcnt>0</overflowcnt>
+<qurrate>84.20</qurrate>
+<seq>9771</seq>
+<stdday>2021년 06월 17일 00시</stdday>
+<updatedt>2021-09-16 10:11:33.897</updatedt>
+</item>
+<item>
+<createdt>2021-06-17 09:00:00.000</createdt>
+<deathcnt>58</deathcnt>
+<defcnt>2307</defcnt>
+<gubun>전북</gubun>
+<gubuncn>全北</gubuncn>
+<gubunen>Jeollabuk-do</gubunen>
+<incdec>7</incdec>
+<isolclearcnt>2201</isolclearcnt>
+<isolingcnt>48</isolingcnt>
+<localocccnt>6</localocccnt>
+<overflowcnt>1</overflowcnt>
+<qurrate>126.95</qurrate>
+<seq>9772</seq>
+<stdday>2021년 06월 17일 00시</stdday>
+<updatedt>2021-09-16 10:11:33.897</updatedt>
+</item>
+<item>
+<createdt>2021-06-17 09:00:00.000</createdt>
+<deathcnt>41</deathcnt>
+<defcnt>3674</defcnt>
+<gubun>충남</gubun>
+<gubuncn>忠南</gubuncn>
+<gubunen>Chungcheongnam-do</gubunen>
+<incdec>5</incdec>
+<isolclearcnt>3545</isolclearcnt>
+<isolingcnt>88</isolingcnt>
+<localocccnt>5</localocccnt>
+<overflowcnt>0</overflowcnt>
+<qurrate>173.10</qurrate>
+<seq>9773</seq>
+<stdday>2021년 06월 17일 00시</stdday>
+<updatedt>2021-09-16 10:11:33.897</updatedt>
+</item>
+<item>
+<createdt>2021-06-17 09:00:00.000</createdt>
+<deathcnt>69</deathcnt>
+<defcnt>3197</defcnt>
+<gubun>충북</gubun>
+<gubuncn>忠北</gubuncn>
+<gubunen>Chungcheongbuk-do</gubunen>
+<incdec>18</incdec>
+<isolclearcnt>2943</isolclearcnt>
+<isolingcnt>185</isolingcnt>
+<localocccnt>18</localocccnt>
+<overflowcnt>0</overflowcnt>
+<qurrate>199.89</qurrate>
+<seq>9774</seq>
+<stdday>2021년 06월 17일 00시</stdday>
+<updatedt>2021-09-16 10:11:33.897</updatedt>
+</item>
+<item>
+<createdt>2021-06-17 09:00:00.000</createdt>
+<deathcnt>51</deathcnt>
+<defcnt>3384</defcnt>
+<gubun>강원</gubun>
+<gubuncn>江原</gubuncn>
+<gubunen>Gangwon-do</gubunen>
+<incdec>7</incdec>
+<isolclearcnt>3207</isolclearcnt>
+<isolingcnt>126</isolingcnt>
+<localocccnt>6</localocccnt>
+<overflowcnt>1</overflowcnt>
+<qurrate>219.66</qurrate>
+<seq>9775</seq>
+<stdday>2021년 06월 17일 00시</stdday>
+<updatedt>2021-09-16 10:11:33.897</updatedt>
+</item>
+<item>
+<createdt>2021-06-17 09:00:00.000</createdt>
+<deathcnt>648</deathcnt>
+<defcnt>41913</defcnt>
+<gubun>경기</gubun>
+<gubuncn>京畿</gubuncn>
+<gubunen>Gyeonggi-do</gubunen>
+<incdec>183</incdec>
+<isolclearcnt>39268</isolclearcnt>
+<isolingcnt>1997</isolingcnt>
+<localocccnt>181</localocccnt>
+<overflowcnt>2</overflowcnt>
+<qurrate>316.32</qurrate>
+<seq>9776</seq>
+<stdday>2021년 06월 17일 00시</stdday>
+<updatedt>2021-09-16 10:11:33.897</updatedt>
+</item>
+<item>
+<createdt>2021-06-17 09:00:00.000</createdt>
+<deathcnt>1</deathcnt>
+<defcnt>519</defcnt>
+<gubun>세종</gubun>
+<gubuncn>世宗</gubuncn>
+<gubunen>Sejong</gubunen>
+<incdec>2</incdec>
+<isolclearcnt>486</isolclearcnt>
+<isolingcnt>32</isolingcnt>
+<localocccnt>1</localocccnt>
+<overflowcnt>1</overflowcnt>
+<qurrate>151.61</qurrate>
+<seq>9777</seq>
+<stdday>2021년 06월 17일 00시</stdday>
+<updatedt>2021-09-16 10:11:33.897</updatedt>
+</item>
+<item>
+<createdt>2021-06-17 09:00:00.000</createdt>
+<deathcnt>40</deathcnt>
+<defcnt>2711</defcnt>
+<gubun>울산</gubun>
+<gubuncn>蔚山</gubuncn>
+<gubunen>Ulsan</gubunen>
+<incdec>22</incdec>
+<isolclearcnt>2597</isolclearcnt>
+<isolingcnt>74</isolingcnt>
+<localocccnt>22</localocccnt>
+<overflowcnt>0</overflowcnt>
+<qurrate>236.35</qurrate>
+<seq>9778</seq>
+<stdday>2021년 06월 17일 00시</stdday>
+<updatedt>2021-09-16 10:11:33.897</updatedt>
+</item>
+<item>
+<createdt>2021-06-17 09:00:00.000</createdt>
+<deathcnt>25</deathcnt>
+<defcnt>2411</defcnt>
+<gubun>대전</gubun>
+<gubuncn>大田</gubuncn>
+<gubunen>Daejeon</gubunen>
+<incdec>18</incdec>
+<isolclearcnt>2165</isolclearcnt>
+<isolingcnt>221</isolingcnt>
+<localocccnt>18</localocccnt>
+<overflowcnt>0</overflowcnt>
+<qurrate>163.55</qurrate>
+<seq>9779</seq>
+<stdday>2021년 06월 17일 00시</stdday>
+<updatedt>2021-09-16 10:11:33.897</updatedt>
+</item>
+<item>
+<createdt>2021-06-17 09:00:00.000</createdt>
+<deathcnt>23</deathcnt>
+<defcnt>2879</defcnt>
+<gubun>광주</gubun>
+<gubuncn>光州</gubuncn>
+<gubunen>Gwangju</gubunen>
+<incdec>6</incdec>
+<isolclearcnt>2817</isolclearcnt>
+<isolingcnt>39</isolingcnt>
+<localocccnt>6</localocccnt>
+<overflowcnt>0</overflowcnt>
+<qurrate>197.64</qurrate>
+<seq>9780</seq>
+<stdday>2021년 06월 17일 00시</stdday>
+<updatedt>2021-09-16 10:11:33.897</updatedt>
+</item>
+<item>
+<createdt>2021-06-17 09:00:00.000</createdt>
+<deathcnt>61</deathcnt>
+<defcnt>6487</defcnt>
+<gubun>인천</gubun>
+<gubuncn>仁川</gubuncn>
+<gubunen>Incheon</gubunen>
+<incdec>17</incdec>
+<isolclearcnt>6218</isolclearcnt>
+<isolingcnt>208</isolingcnt>
+<localocccnt>17</localocccnt>
+<overflowcnt>0</overflowcnt>
+<qurrate>219.44</qurrate>
+<seq>9781</seq>
+<stdday>2021년 06월 17일 00시</stdday>
+<updatedt>2021-09-16 10:11:33.897</updatedt>
+</item>
+<item>
+<createdt>2021-06-17 09:00:00.000</createdt>
+<deathcnt>222</deathcnt>
+<defcnt>10477</defcnt>
+<gubun>대구</gubun>
+<gubuncn>大邱</gubuncn>
+<gubunen>Daegu</gubunen>
+<incdec>7</incdec>
+<isolclearcnt>9994</isolclearcnt>
+<isolingcnt>261</isolingcnt>
+<localocccnt>7</localocccnt>
+<overflowcnt>0</overflowcnt>
+<qurrate>430.00</qurrate>
+<seq>9782</seq>
+<stdday>2021년 06월 17일 00시</stdday>
+<updatedt>2021-09-16 10:11:33.897</updatedt>
+</item>
+<item>
+<createdt>2021-06-17 09:00:00.000</createdt>
+<deathcnt>124</deathcnt>
+<defcnt>5985</defcnt>
+<gubun>부산</gubun>
+<gubuncn>釜山</gubuncn>
+<gubunen>Busan</gubunen>
+<incdec>17</incdec>
+<isolclearcnt>5650</isolclearcnt>
+<isolingcnt>211</isolingcnt>
+<localocccnt>15</localocccnt>
+<overflowcnt>2</overflowcnt>
+<qurrate>175.42</qurrate>
+<seq>9783</seq>
+<stdday>2021년 06월 17일 00시</stdday>
+<updatedt>2021-09-16 10:11:33.897</updatedt>
+</item>
+<item>
+<createdt>2021-06-17 09:00:00.000</createdt>
+<deathcnt>504</deathcnt>
+<defcnt>47132</defcnt>
+<gubun>서울</gubun>
+<gubuncn>首尔</gubuncn>
+<gubunen>Seoul</gubunen>
+<incdec>201</incdec>
+<isolclearcnt>44074</isolclearcnt>
+<isolingcnt>2554</isolingcnt>
+<localocccnt>199</localocccnt>
+<overflowcnt>2</overflowcnt>
+<qurrate>484.22</qurrate>
+<seq>9784</seq>
+<stdday>2021년 06월 17일 00시</stdday>
+<updatedt>2021-09-16 10:11:33.897</updatedt>
+</item>
+<item>
+<createdt>2021-06-17 09:00:00.000</createdt>
+<deathcnt>1994</deathcnt>
+<defcnt>149730</defcnt>
+<gubun>합계</gubun>
+<gubuncn>合计</gubuncn>
+<gubunen>Total</gubunen>
+<incdec>540</incdec>
+<isolclearcnt>141015</isolclearcnt>
+<isolingcnt>6721</isolingcnt>
+<localocccnt>523</localocccnt>
+<overflowcnt>17</overflowcnt>
+<qurrate>288.79</qurrate>
+<seq>9785</seq>
+<stdday>2021년 06월 17일 00시</stdday>
+<updatedt>2021-09-16 10:11:33.897</updatedt>
+</item>
+</items>
+<numOfRows>10</numOfRows>
+<pageNo>1</pageNo>
+<totalCount>19</totalCount>
+</body>
+</response>
